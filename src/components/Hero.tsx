@@ -3,7 +3,7 @@ import heroImage from "../assets/hero-image.jpg";
 export const Hero = () => {
   return (
     <div
-      className="relative w-full h-[90vh] bg-cover bg-center bg-no-repeat overflow-hidden"
+      className="relative w-full h-screen bg-cover bg-center bg-no-repeat overflow-hidden -translate-y-[100px]"
       style={{ backgroundImage: `url(${heroImage})` }}
     >
       {/* Dark overlay */}
