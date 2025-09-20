@@ -12,7 +12,6 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 
-import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { buttonVariants } from "./ui/button";
 import { Menu } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
@@ -87,7 +86,7 @@ export const Navbar = () => {
 
           {/* mobile */}
           <span className="flex md:hidden">
-            {/* <ModeToggle /> */}
+            <ModeToggle />
 
             <Sheet
               open={isOpen}
@@ -140,6 +139,9 @@ export const Navbar = () => {
               </a>
             ))}
           </nav>
+          <div className="hidden md:flex gap-2">
+            <ModeToggle />
+          </div>
         </NavigationMenuList>
       </NavigationMenu>
     </header>
