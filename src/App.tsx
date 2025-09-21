@@ -6,8 +6,6 @@ import { Services } from "./components/Services";
 
 import "./App.css";
 import { Products } from "./components/Products";
-// import { FAQ } from "./components/FAQ";
-// import { FAQ } from "./components/FAQ";
 
 function App() {
   return (
@@ -18,6 +16,7 @@ function App() {
       {/* this is for products */}
       <Products />
 
+      {/* <Team /> */}
       {/* <FAQ /> */}
       <Footer />
       <ScrollToTop />

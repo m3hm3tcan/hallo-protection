@@ -1,3 +1,18 @@
+export const SolidPhoneICon = () => {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24" fill="currentColor"
+      className="w-6 h-6 text-gray-700">
+      <path fill-rule="evenodd"
+        d="M2.25 6.75c.75-2.25 3.75-3 6.75-1.5s5.25 4.5 6.75 6.75 0 6-1.5 6.75c-2.25 1.5-6-1.5-9-4.5S1.5 9 2.25 6.75z"
+        clip-rule="evenodd" />
+    </svg>
+
+
+  )
+}
+
+
 export const LogoIcon = () => {
   return (
     <svg

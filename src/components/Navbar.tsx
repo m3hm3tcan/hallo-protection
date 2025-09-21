@@ -66,7 +66,7 @@ export const Navbar = () => {
 
       className={`sticky top-0 z-40 w-full pt-3 pb-3 transition-colors text-white duration-500 ${scrolled
         ? "bg-red-600 border-b-red-700"
-        : "bg-transparent border-b-transparent"
+        : "dark:bg-transparent dark:border-b-transparent bg-white text-black dark:text-white"
         } dark:border-b-slate-700`}
 
     >
@@ -78,8 +78,6 @@ export const Navbar = () => {
               href="/"
               className="ml-2 font-bold text-xl flex"
             >
-              {/* <LogoIcon /> */}
-              {/* Holló Protection */}
               <img src={HeaderLogo} height={100} width={100} />
             </a>
           </NavigationMenuItem>

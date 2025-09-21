@@ -17,7 +17,6 @@ export interface Feature {
 }
 
 export const productList: ProductListProps[] = [
-    // { name: 'Minden', cat: '' },
     { name: 'Tűzoltó Készülékek', cat: 'tuzolto-keszulek' },
     { name: 'Alkatrészek', cat: 'alkatreszek' },
     { name: 'Készüléktartó Dobozok', cat: 'keszulektarto-dobozok' },
