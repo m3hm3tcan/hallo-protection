@@ -64,7 +64,7 @@ export const Navbar = () => {
     <header
 
 
-      className={`sticky top-0 z-40 w-full pt-3 pb-3 transition-colors text-white duration-500 ${scrolled
+      className={`sticky top-0 z-40 w-full pt-3 pb-3 transition-color duration-500 ${scrolled
         ? "bg-red-600 border-b-red-700"
         : "dark:bg-transparent dark:border-b-transparent bg-white text-black dark:text-white"
         } dark:border-b-slate-700`}
